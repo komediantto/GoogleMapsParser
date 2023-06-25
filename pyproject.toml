@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "parser-google-maps"
+version = "0.1.0"
+description = ""
+authors = ["user <bav-574@mail.ru>"]
+readme = "README.md"
+packages = [{include = "parser_google_maps"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.30.0"
+googlemaps = "^4.10.0"
+python-dotenv = "^1.0.0"
+pandas = "^2.0.1"
+openpyxl = "^3.1.2"
+loguru = "^0.7.0"
+tqdm = "^4.65.0"
+pick = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
